@@ -1,4 +1,0 @@
-example: false
-description: if the student recieve unemployment benefits
-nullable: false
-type: boolean

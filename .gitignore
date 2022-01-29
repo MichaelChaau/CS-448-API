@@ -1,5 +1,0 @@
-# Ignore MacOS metadata files
-.DS_Store
-
-# Node modules
-node_modules
