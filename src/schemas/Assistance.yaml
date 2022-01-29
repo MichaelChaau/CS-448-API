@@ -1,0 +1,32 @@
+example: { "socSec": false, "TANF": false, "finAid": false, "other": false, "SNAP": false, "WIC": false, "breakfast": false, "lunch": false, "SFSP": false }
+description: the kind of aid that the student recieves; or none
+nullable: false
+type: object
+properties:
+  socSec:
+    nullable: false
+    type: boolean
+  TANF:
+    nullable: false
+    type: boolean
+  finAid:
+    nullable: false
+    type: boolean
+  other:
+    nullable: false
+    type: boolean
+  SNAP:
+    nullable: false
+    type: boolean
+  WIC:
+    nullable: false
+    type: boolean
+  breakfast:
+    nullable: false
+    type: boolean
+  lunch:
+    nullable: false
+    type: boolean
+  SFSP:
+    nullable: false
+    type: boolean

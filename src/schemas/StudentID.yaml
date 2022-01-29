@@ -1,0 +1,5 @@
+example: 1211141
+description: Unique student identifier
+nullable: false
+pattern: ^\d{7}$
+type: string
