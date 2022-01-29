@@ -1,0 +1,5 @@
+example: ["2", "4"]
+description: an array of ages of a student's household members
+type: array
+items:
+  type: string

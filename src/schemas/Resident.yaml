@@ -1,0 +1,4 @@
+example: true
+description: whether the student lives on campus or not
+nullable: false
+type: boolean
