@@ -2,6 +2,8 @@ openapi: 3.0.3
 info:
   title: GuestInfoSystemAPI
   version: 0.1.0
+servers:
+  - url: 'http://localhost:10001/v0'
 paths:
   '/guest-info/{studentID}':
     description: For info about the guest with given id.
