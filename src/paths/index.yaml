@@ -1,3 +1,7 @@
+/guest-info:
+  description: List all guests
+  get:
+    $ref: ./getAllGuests.yaml
 /guest-info/{studentID}:
   description: For info about the guest with given id.
   parameters:
