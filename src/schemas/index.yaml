@@ -18,3 +18,5 @@ Assistance:
   $ref: ./Assistance.yaml
 Household:
   $ref: ./Household.yaml
+APIVersion:
+  $ref: ./APIVersion.yaml
