@@ -15,3 +15,7 @@
     $ref: ./getGuestData.yaml
   put:
     $ref: ./putGuestData.yaml
+/version:
+  description: Get current API version number
+  get:
+    $ref: ./getAPIVersion.yaml
