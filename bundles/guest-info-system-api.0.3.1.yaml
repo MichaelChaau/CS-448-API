@@ -68,7 +68,7 @@ paths:
   /version:
     description: Get current API version number
     get:
-      description: Gets all guests data.
+      description: Gets current opperating version of the API
       operationId: getAPIVersion
       x-eov-operation-handler: endpoints
       responses:
