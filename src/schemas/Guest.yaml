@@ -1,5 +1,4 @@
 example: { "studentID": "1234567", "resident": true, "zipCode": "02048", "unemployment": false, "assistance": { "socSec": false, "TANF": false, "finAid": false, "other": false, "SNAP": false, "WIC": false, "breakfast": false, "lunch": false, "SFSP": false }, "household": ["1", "4", "10"] }
-type: object
 description: Guest object
 properties:
   studentID:
@@ -16,8 +15,4 @@ properties:
     $ref: ../index.yaml#/components/schemas/Household
 required:
   - studentID
-  - resident
-  - zipCode
-  - household
-  - unemployment
-  - assistance
+type: object
