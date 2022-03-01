@@ -8,7 +8,5 @@ responses:
       application/json:
         schema:
           $ref: '../index.yaml#/components/schemas/Guest'
-  "400":
-    $ref: '../index.yaml#/components/responses/BadRequest'
   "500":
     $ref: '../index.yaml#/components/responses/ServerError'
