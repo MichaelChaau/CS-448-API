@@ -1,0 +1,16 @@
+example: { "resident": true, "zipCode": "02048", "unemployment": false, "assistance": { "socSec": false, "TANF": false, "finAid": false, "other": false, "SNAP": false, "WIC": false, "breakfast": false, "lunch": false, "SFSP": false }, "household": ["1", "4", "10"] }
+description: Put Guest body object
+properties:
+  resident:
+    $ref: ../index.yaml#/components/schemas/Resident
+  zipCode:
+    $ref: ../index.yaml#/components/schemas/ZipCode
+  unemployment:
+    $ref: ../index.yaml#/components/schemas/Unemployment
+  assistance:
+    $ref: ../index.yaml#/components/schemas/Assistance
+  household:
+    $ref: ../index.yaml#/components/schemas/Household
+required:
+  - studentID
+type: object
