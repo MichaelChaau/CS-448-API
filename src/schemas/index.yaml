@@ -4,6 +4,8 @@ MongoId:
   $ref: ./MongoId.yaml
 Guest:
   $ref: ./Guest.yaml
+GuestBody:
+  $ref: ./GuestBody.yaml
 GuestArray:
   $ref: ./GuestArray.yaml
 StudentID:

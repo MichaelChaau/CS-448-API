@@ -1,6 +1,13 @@
 description: Modifies guest's data.
 operationId: updateGuestData
 x-eov-operation-handler: endpoints
+requestBody:
+  description: Guest data
+  required: true
+  content:
+    application/json:
+      schema:
+        $ref: '../index.yaml#/components/schemas/GuestBody'
 responses:
   "200":
     description: OK
