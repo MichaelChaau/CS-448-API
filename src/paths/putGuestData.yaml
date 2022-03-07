@@ -14,7 +14,7 @@ responses:
     content:
       application/json:
         schema:
-          $ref: '../index.yaml#/components/schemas/Guest'
+          $ref: '../index.yaml#/components/schemas/GuestBody'
     headers:
       Location:
         description: URI of new item.

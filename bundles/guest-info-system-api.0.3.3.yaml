@@ -55,7 +55,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Guest'
+                $ref: '#/components/schemas/GuestBody'
           headers:
             Location:
               description: URI of new item.
